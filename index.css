@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    height: 300px;
+    width: 100%;
+  }
+  #display {
+    max-width: 50%;
+    margin-left: 25%;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    background: rgb(8, 19, 19);
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+  
+  .buttons {
+    text-align: center;
+    padding: 20px;
+  }
+  button {
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    text-transform: capitalize;
+    color: white;
+    background: steelblue;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  button:focus {
+    outline: 0;
+  }
+  button {
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  #reset {
+    background: red;
+  }
+  
